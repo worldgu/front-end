@@ -1,3 +1,5 @@
+#   ---------  第一章  React基础--------
+
 # 01  React出现的历史背景及特性介绍
 
 ![image-20210120001018299](Log.assets/image-20210120001018299.png)
@@ -219,6 +221,130 @@ consume 必须放在provide 之内，否者就是默认值
 
 
 ![image-20210120234234817](Log.assets/image-20210120234234817.png)
+
+
+
+
+
+# ---------
+
+# --------   第二章  React生态圈----------
+
+# 10 Redux（1）： 前端为何需要状态管理库
+
+> Redux（1）： JS 状态管理框架
+
+![image-20210122180026539](Log.assets/image-20210122180026539.png)
+
+
+
+![image-20210122180100441](Log.assets/image-20210122180100441.png)
+
+
+
+>  Store 负责管理所有的全局的状态
+
+
+
+![image-20210122180253003](Log.assets/image-20210122180253003.png)
+
+
+
+![image-20210122180310151](Log.assets/image-20210122180310151.png)
+
+
+
+
+
+# 11 Redux （2）：深入了解Store、Action、Reducer
+
+
+
+
+
+# 12 Redux（3）：在React中使用Redux
+
+
+
+# 13 Redux （4）：理解异步Action、Redux中间件
+
+
+
+Redux 的浏览器插件
+
+
+
+--- 小结 ---
+
+1. 异步action不是特殊action,
+
+   而是多个同步action的组合使用
+
+2. 中间件在dispatcher 中截获action做特殊处理
+
+
+
+# 14 Redux （5）：如何组织Action和reducer
+
+
+
+一个文件一个Action
+
+
+
+# 15 Redux （6）：理解不可变数据（Immutability）
+
+
+
+# 16 React Router （1）：路由不只是页面切换，更是代码组织方式
+
+
+
+
+
+# 17 React Router （2）：参数定义，嵌套路由的使用场景
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
