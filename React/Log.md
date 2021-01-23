@@ -308,6 +308,38 @@ Redux 的浏览器插件
 
 
 
+# 18 UI组件库对比和介绍：Ant.Design、Material UI、Semantic UI
+
+Ant.Design：组件类库齐全，界面偏向企业化
+
+Material UI :  界面时尚，组件可能有缺失
+
+Semantic UI ： 
+
+
+
+# 19 使用Nexti.js 创建React同构应用
+
+
+
+next.js  中可以通过 **prefetch**  属性进行  关于当前连接的资源 进行预加载
+
+
+
+动态加载页面
+
+
+
+# 20 使用Jest、Enzyme等工具进行单元测试
+
+
+
+
+
+# 21 常用开发调试工具：ESLint、Prettier、React DevTool、Redux DevTool
+
+ 
+
 
 
 
