@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from 'antd';
 
 export default function WelcomePage() {
   return (
@@ -20,6 +21,11 @@ export default function WelcomePage() {
           <li>
             To see examples, access:&nbsp;
             <Link to="/examples">/examples</Link>
+          </li>
+          <li>
+            <div className="App">
+              <Button type="primary">Button</Button>
+            </div>
           </li>
         </ul>
       </div>

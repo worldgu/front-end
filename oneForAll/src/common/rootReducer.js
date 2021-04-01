@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 // import { routerReducer } from 'react-router-redux';
 import { connectRouter } from 'connected-react-router'
 import history from './history';
-import homeReducer from '../features/home/redux/reducer';
+import homeReducer from '../features/hom/redux/reducer';
 import commonReducer from '../features/common/redux/reducer';
 import examplesReducer from '../features/examples/redux/reducer';
 

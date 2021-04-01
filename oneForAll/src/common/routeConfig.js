@@ -1,6 +1,7 @@
-import { App } from '../features/home';
+import { App } from '../features/hom';
+import index from "../features/home/index";
 import { PageNotFound } from '../features/common';
-import homeRoute from '../features/home/route';
+import homeRoute from '../features/hom/route';
 import commonRoute from '../features/common/route';
 import examplesRoute from '../features/examples/route';
 import _ from 'lodash';
@@ -15,7 +16,7 @@ const childRoutes = [
 
 const routes = [{
   path: '/',
-  component: App,
+  component: index,
   childRoutes: [
     ...childRoutes,
     { path: '*', name: 'Page not found', component: PageNotFound },
